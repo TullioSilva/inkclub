@@ -11,7 +11,7 @@ header{
 }
 header nav{
     padding-bottom: 45px;
-    padding-right: 15%;
+    padding-right: 10%;
 }
 header nav > a {
     font-family: 'Poppins', sans-serif;
@@ -21,11 +21,13 @@ header nav > a {
     padding: 15px;
     float: right;
 }
+body{
+    background-color: black;
+}
 div.blackf img{
     width: 100%;
 }
 .cadastro{
     background-color: black;
-    padding: 40px;
     text-align: center;
 }
