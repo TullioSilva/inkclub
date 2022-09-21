@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INK</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -25,8 +26,10 @@
     </div>
     <div class="cadastro">
         <form action="cadastro.php" method="post" autocomplete="off">
-            <p><label for="isearch"></label></p>
-            <input type="search" name="isearch" id="isearch" required minlength="3" maxlength="20" size="24" placeholder="Busque pelo desenho ou estilo">
+            <p><label for="isearch"></label>
+            <input type="search" name="search" id="isearch" required minlength="3" maxlength="20" size="28" placeholder="Busque pelo desenho ou estilo"></p>
+
+            <p><input type="submit" value="Procurar"></p>
         </form>
     </div>
 </body>
